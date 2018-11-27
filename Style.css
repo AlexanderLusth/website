@@ -7,6 +7,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+
 }
 
 li {
@@ -88,6 +89,7 @@ body{
   background-size: cover;
   background-position: center;
   background-position: bottom;
+  
 
 
 }
@@ -108,8 +110,4 @@ body{
 }
 li {
     border-right: 1px solid #bbb;
-}
-@media screen and (max-width: 600px){
-    ul.topnav li.right,
-    ul.topnav li {float: none;}
 }
