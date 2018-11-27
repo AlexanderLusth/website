@@ -1,0 +1,115 @@
+li {
+    display: inline;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+#välkommenHeader {
+  text-align: center;
+}
+#förstapara{
+  text-align: center;
+}
+#info{
+   text-align: center;
+}
+#kontakt{
+  text-align: center;
+}
+#rolig {
+  text-align: center;
+}
+#link {
+  text-align: center;
+}
+#youtube {
+  background-color: #f44336;
+color: white;
+padding: 14px 25px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+}
+#steam {
+  background-color: #8B8787;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+#twitch {
+  background-color: #BC00FF;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+.active {
+    background-color: #f48042;
+}
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    right: auto;
+}
+#praktik{
+  text-align: center;
+}
+body{
+  background-image: url(white.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-position: bottom;
+
+
+}
+#engelska{
+  text-align: center;
+}
+#ryska{
+  text-align: center;
+}
+#navmain{
+  position: static;
+  top: 0;
+  margin-bottom: 20px;
+  width: 100%;
+  right: 0;
+  left: 0;
+
+}
+li {
+    border-right: 1px solid #bbb;
+}
+@media screen and (max-width: 600px){
+    ul.topnav li.right,
+    ul.topnav li {float: none;}
+}
