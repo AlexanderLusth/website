@@ -1,17 +1,15 @@
 li {
-    display: inline;
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: visible;
-    background-color: #333;
-
-}
-
-li {
+    display: block;
     float: left;
+    border-right: 1px solid #bbb;
+}
+#page-settings {
+  position: relative;
+  margin: 0 auto;
+  height: auto;
+  min-height: 100%;
+  bottom: 0%;
+
 }
 
 #välkommenHeader {
@@ -62,13 +60,12 @@ display: inline-block;
 
 
 li a {
-    display: inline-block;
+    display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-
 
 li a:hover:not(.active) {
     background-color: #111;
@@ -76,21 +73,11 @@ li a:hover:not(.active) {
 .active {
     background-color: #f48042;
 }
-ul {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    left: 0;
-    right: 0;
-}
 #praktik{
   text-align: center;
 }
 body{
   background-image: url(white.jpg);
-
-
-
 
 }
 #engelska{
@@ -99,15 +86,25 @@ body{
 #ryska{
   text-align: center;
 }
-#navmain{
-  position: static;
-  top: 0;
-  margin-bottom: 20px;
-  width: 100%;
-  right: 0;
-  left: 0;
-
+#navul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
-li {
-    border-right: 1px solid #bbb;
+#navmain{
+  position: relative;
+  list-style-type: none;
+  top: 0;
+  width: 100%;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.pagerow{
+  width: 100%;
+  height: auto;
 }
