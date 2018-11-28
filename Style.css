@@ -120,3 +120,7 @@ body{
   border: 1px solid black;
   transform: skewY(20deg);
   }
+  #audirs7{
+    width: 400px;
+    height: 240px;
+  }
