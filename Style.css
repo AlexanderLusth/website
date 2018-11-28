@@ -107,3 +107,7 @@ body{
   width: 100%;
   height: auto;
 }
+@media screen and (max-width: 600px){
+    ul.nav li.right,
+    ul.nav li {float: none;}
+}
