@@ -19,3 +19,37 @@
   max-width: 100%;
   height: auto;
 }
+#elan-h{
+  color: orange;
+}
+#elan-info{
+  border-radius: 15px;
+  text-align: center;
+  width: 200px;
+  height: 20px;
+  background-color: yellow;
+  border: 1px solid black;
+}
+#elan{
+  position:  relative;
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+#summit{
+  position:  relative;
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+#summit-h{
+  color: orange;
+}
+#summit-info{
+  border-radius: 15px;
+  text-align: center;
+  width: 200px;
+  height: 20px;
+  background-color: yellow;
+  border: 1px solid black;
+}

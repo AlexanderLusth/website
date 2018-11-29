@@ -139,8 +139,8 @@ body{
     position: relative;
     margin: auto;
     margin-top: 10px;
-    width: 400px;
-    height: 240px;
+    width: 100%;
+    height: auto;
   }
 #bergs{
   position: relative;
