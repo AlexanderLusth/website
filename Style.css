@@ -136,6 +136,9 @@ body{
   transform: skewY(20deg);
   }
   #audirs7{
+    position: relative;
+    margin: auto;
+    margin-top: 10px;
     width: 400px;
     height: 240px;
   }
