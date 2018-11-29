@@ -14,7 +14,12 @@ li {
 
 #välkommenHeader {
   text-align: center;
-}
+  outline: 5px solid blue;
+    outline-offset: 5px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
 #förstapara{
   text-align: center;
 }
@@ -81,9 +86,19 @@ body{
 }
 #engelska{
   text-align: center;
+  outline: 5px solid white;
+    outline-offset: 5px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 10px;
 }
 #ryska{
   text-align: center;
+  outline: 5px solid green;
+    outline-offset: 5px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 10px;
 }
 #navul{
   list-style-type: none;
@@ -124,3 +139,51 @@ body{
     width: 400px;
     height: 240px;
   }
+#bergs{
+  position: relative;
+  display: inline-block;
+}
+#bergs-text{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+#bergs:hover #bergs-text{
+  display: block;
+}
+#ica{
+  position: relative;
+  display: inline-block;
+}
+#ica-text{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+#ica:hover #ica-text{
+  display: block;
+}
+#eltel{
+  position: relative;
+  display: inline-block;
+}
+#eltel-text{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+#eltel:hover #eltel-text{
+  display: block;
+}
