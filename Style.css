@@ -21,7 +21,12 @@ li {
     margin-top: 10px;
   }
 #förstapara{
+  border-radius: 10px;
   text-align: center;
+  width: 340px;
+  height: 40px;
+  background-color: white;
+  border: 1px solid black;
 }
 #info{
    text-align: center;
@@ -36,31 +41,17 @@ li {
   text-align: center;
 }
 #youtube {
-border-radius: 15px;
-background-color: #f44336;
-color: white;
-padding: 14px 25px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
+position: relative;
+width: 150px;
+height: 100px;
 }
 #steam {
-  border-radius: 15px;
-  background-color: #8B8787;
-  color: white;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
+position: relative;
+width: 300px;
 }
-#twitch_button {
-  border-radius: 15px;
-  background-color: #BC00FF;
-  color: white;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
+#twitch-button {
+position: relative;
+width: 300px;
 }
 
 li a {

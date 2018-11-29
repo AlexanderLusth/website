@@ -13,6 +13,7 @@
   position: relative;
   max-width: 100%;
   height: auto;
+  margin-top: 10px;
 }
 #snow{
   position: relative;
@@ -55,4 +56,19 @@
 }
 #latest-vid{
   position: relative;
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  outline: 5px solid blue;
+    outline-offset: 1px;
+    width: 300px;
+}
+#site-info{
+  margin-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+  width: 200px;
+  height: 40px;
+  background-color: white;
+  border: 1px solid black;
 }
