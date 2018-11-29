@@ -187,3 +187,13 @@ body{
 #eltel:hover #eltel-text{
   display: block;
 }
+#site-version{
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+  width: 130px;
+  height: 20px;
+  background-color: yellow;
+  border: 1px solid black;
+}
