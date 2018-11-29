@@ -53,3 +53,6 @@
   background-color: yellow;
   border: 1px solid black;
 }
+#latest-vid{
+  position: relative;
+}
