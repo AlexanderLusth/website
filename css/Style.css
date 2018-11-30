@@ -71,7 +71,7 @@ li a:hover:not(.active) {
   text-align: center;
 }
 body{
-  background-image: url(white.jpg);
+  background-image: url(../pictures/white.jpg); 
 
 }
 #engelska{
