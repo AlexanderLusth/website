@@ -138,4 +138,13 @@
 #date-btn{
   position: relative;
   margin-top: 20px;
+margin-left: auto;
+}
+#datumet{
+  border-radius: 15px;
+  text-align: center;
+  width: 460px;
+  height: 20px;
+  background-color: yellow;
+  border: 1px solid black;
 }
