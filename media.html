@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <link rel="stylesheet" href="Style.css">
- <link rel="stylesheet" href="Style2.css">
+ <link rel="stylesheet" href="css/Style.css">
+ <link rel="stylesheet" href="css/Style2.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -26,12 +26,12 @@
 <h1 id="rolig">ROLIGARE DELEN</h1>
 <p id="link">här i så finns det mästadels länkar till olika projekt eller websidor som jag håller på med på fritiden.</p>
 <a href="https://youtube.com/alexanderwake"
-  type="button" class="button"><img id="youtube" src="youtube.png" alt=""> </a>
+  type="button" class="button"><img id="youtube" src="pictures/youtube.png" alt=""> </a>
 <p>Min youtube kanal.</p>
 <a href="https://steamcommunity.com/profiles/76561198117467646"
-  type="button" class="button"> <img id="steam" src="steam.jpg" alt=""> </a>
+  type="button" class="button"> <img id="steam" src="pictures/steam.jpg" alt=""> </a>
 <p>Min steam profil.</p>
-<a href="https://www.twitch.tv/alexanderwaken" type="button" class="button"><img id="twitch-button" src="twitch.jpg" alt=""> </a>
+<a href="https://www.twitch.tv/alexanderwaken" type="button" class="button"><img id="twitch-button" src="pictures/twitch.jpg" alt=""> </a>
 <p>Min twitch kanal.</p>
 </div>
 <div id="rotation">
@@ -40,5 +40,8 @@
 <div id="site-version">site-version:1.4</div>
 <div id="latest-vid">
 <iframe src="https://www.youtube.com/embed/hlen7Z2BxTU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<button id="date-btn" onclick="getDate()">DATUM</button>
+<p id="datumet"></p>
+<script src="javaScripts/datetime.js"></script>
 </body>
 </html>
