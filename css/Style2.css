@@ -148,3 +148,6 @@ margin-left: auto;
   background-color: yellow;
   border: 1px solid black;
 }
+#start-btn{
+  position: relative;
+}
