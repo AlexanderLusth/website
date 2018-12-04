@@ -72,69 +72,6 @@
   background-color: white;
   border: 1px solid black;
 }
-#svenska{
-  position: relative;
-  display: inline-block;
-}
-#svenska-text{
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  padding: 12px 16px;
-  z-index: 1;
-}
-#svenska:hover #svenska-text{
-  display: block;
-}
-#engelska-lang{
-  position: relative;
-  display: inline-block;
-}
-#engelska-text{
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  padding: 12px 16px;
-  z-index: 1;
-}
-#engelska-lang:hover #engelska-text{
-  display: block;
-}
-#tyska{
-  position: relative;
-  display: inline-block;
-}
-#tyska-text{
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  padding: 12px 16px;
-  z-index: 1;
-}
-#tyska:hover #tyska-text{
-  display: block;
-}
-#svenska-flag{
-  position: relative;
-  width: 300px;
-  height: 150px;
-}
-#engelska-bild{
-  position: relative;
-  width: 300px;
-  height: 150px;
-}
-#tyska-bild{
-  position: relative;
-  width: 300px;
-  height: 150px;
-}
 #date-btn{
   position: relative;
   margin-top: 20px;
@@ -154,4 +91,31 @@ margin-left: auto;
 }
 #counter{
   position: relative;
+}
+#left-column-info{
+  float: left;
+width: 320px;
+margin-left: 50px;
+}
+#row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+#card-info{
+  background-color: white;
+border: 1px solid red;
+}
+#right-column-info{
+  float: left;
+margin-left: 20px;
+width: 800px;
+}
+@media screen and (max-width: 600px) {
+    #left-column-info, #right-column-info {
+        width: 90%;
+        padding: 0;
+        margin-left: 10px;
+        
+    }
 }
