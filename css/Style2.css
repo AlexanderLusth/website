@@ -116,6 +116,66 @@ width: 800px;
         width: 90%;
         padding: 0;
         margin-left: 10px;
-        
+
     }
+}
+.barBackground{
+    position: relative;
+    margin: 10px 0px 10px 0px;
+    width: 100%;
+    height: 20px;
+    background-color: #f0f0f0;
+    border-radius: 25px;
+}
+.barForeground{
+    position: relative;
+    height: 20px;
+    background-color: #00937b;
+    border-radius: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.barPercentage{
+    position: relative;
+    top: -1px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+}
+#bar-pc{
+  width: 90%;
+}
+#bar-edit{
+  width: 80%;
+}
+#bar-html{
+  width: 35%;
+}
+#bar-code{
+  width: 25%;
+}
+.img-info{
+  position: relative;
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
+#img-flake{
+  width: 35px;
+  height: 35px;
+}
+#avatar-img{
+  position: relative;
+}
+#lang-bar-swe{
+  width: 97%;
+}
+#lang-bar-eng{
+  width: 55%;
+}
+#lang-bar-de{
+  width: 20%;
+}
+.info-text{
+  margin-left: 10px;
 }

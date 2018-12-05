@@ -1,3 +1,10 @@
+body{
+  background-image: url(../pictures/white.jpg);
+  font-family: sans-serif;
+}
+ #ryska, #engelska #välkommenheader{
+   animation: move 1s ;
+}
 li {
     display: block;
     float: left;
@@ -68,9 +75,6 @@ li a:hover:not(.active) {
     background-color: #f48042;
 }
 
-body{
-  background-image: url(../pictures/white.jpg);
-}
 #engelska{
   text-align: center;
   outline: 5px solid white;
@@ -139,4 +143,12 @@ body{
   height: 20px;
   background-color: yellow;
   border: 1px solid black;
+}
+
+#ryska{animation-timing-function: ease-in-out;}
+
+
+@keyframes move {
+from{top: 400px;}
+to{top: 0px;}
 }
