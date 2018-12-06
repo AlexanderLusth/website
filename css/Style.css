@@ -2,9 +2,9 @@ body{
   background-image: url(../pictures/white.jpg);
   font-family: sans-serif;
 }
-.animation{
+.animation-index{
    animation-duration: 1s;
-   animation-name: move;
+   animation-name: index;
 }
 li {
     display: block;
@@ -40,9 +40,6 @@ position: relative;
 }
 #info{
    text-align: center;
-}
-#kontakt{
-  text-align: center;
 }
 #rolig {
   text-align: center;
@@ -151,7 +148,7 @@ li a:hover:not(.active) {
 #ryska{animation-timing-function: ease-in-out;}
 
 
-@keyframes move {
+@keyframes index {
 from{top: 400px;}
 to{top: 0px;}
 }
