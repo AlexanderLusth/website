@@ -2,8 +2,9 @@ body{
   background-image: url(../pictures/white.jpg);
   font-family: sans-serif;
 }
- #ryska, #engelska #välkommenheader{
-   animation: move 1s ;
+.animation{
+   animation-duration: 1s;
+   animation-name: move;
 }
 li {
     display: block;
@@ -16,7 +17,9 @@ li {
   height: auto;
   min-height: 100%;
   bottom: 0%;
-
+}
+#animation-settings{
+position: relative;
 }
 
 #välkommenHeader {
@@ -151,4 +154,4 @@ li a:hover:not(.active) {
 @keyframes move {
 from{top: 400px;}
 to{top: 0px;}
-} 
+}
