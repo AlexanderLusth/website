@@ -174,3 +174,12 @@ width: 800px;
 .info-text{
 margin-left: 10px;
 }
+#bar-audi{
+  width: 95%;
+}
+#bar-250{
+  width: 30%;
+}
+#bar-550{
+  width: 50%;
+}
