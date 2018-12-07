@@ -1,3 +1,7 @@
+footer{
+  display: block;
+  background-color: red;
+}
 body{
   background-image: url(../pictures/white.jpg);
   font-family: sans-serif;
