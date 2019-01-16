@@ -1,6 +1,8 @@
 footer{
   display: block;
-  background-color: red;
+  background-color: white;
+  outline: 1px solid red;
+  height: 30px;
 }
 body{
   background-image: url(../pictures/white.jpg);
@@ -155,4 +157,11 @@ li a:hover:not(.active) {
 @keyframes index {
 from{top: 400px;}
 to{top: 0px;}
+}
+#footer-text{
+  text-align: center;
+}
+#footer{
+  margin-top: 25px;
+  height: auto;
 }
