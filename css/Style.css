@@ -2,7 +2,7 @@ footer{
   display: block;
   background-color: white;
   outline: 1px solid red;
-  height: 30px;
+  height: 21px;
 }
 body{
   background-image: url(../pictures/white.jpg);
@@ -161,7 +161,15 @@ to{top: 0px;}
 #footer-text{
   text-align: center;
 }
-#footer{
-  margin-top: 25px;
+.row{
+  width: 100%;
   height: auto;
+}
+.column1-3{
+  width: 33%;
+  height: auto;
+  margin: 0;
+}
+#footer-div{
+  margin: 0 auto;
 }

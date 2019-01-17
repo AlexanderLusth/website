@@ -82,7 +82,7 @@ margin-left: auto;
 }
 #start-btn{
   position: relative;
-  margin-top: 10px;
+  float: left;
 }
 #counter{
   position: relative;
