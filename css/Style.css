@@ -173,3 +173,8 @@ to{top: 0px;}
 #footer-div{
   margin: 0 auto;
 }
+@media screen and (max-width: 741px){
+  footer{
+    height: 40px;
+  }
+}
