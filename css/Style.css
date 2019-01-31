@@ -2,7 +2,7 @@ footer{
   display: block;
   background-color: white;
   outline: 1px solid red;
-  height: 21px;
+  height: 25px;
 }
 body{
   background-image: url(../pictures/white.jpg);
