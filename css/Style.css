@@ -5,7 +5,7 @@ footer{
   height: 25px;
 }
 body{
-  background-image: url(../pictures/white.jpg);
+  background-image: url(../pictures/fade2.png);
   font-family: sans-serif;
 }
 .animation-index{
@@ -158,6 +158,7 @@ li a:hover:not(.active) {
 from{top: 400px;}
 to{top: 0px;}
 }
+
 #footer-text{
   text-align: center;
 }
