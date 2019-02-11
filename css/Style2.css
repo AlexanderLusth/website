@@ -139,6 +139,14 @@ width: 800px;
     vertical-align: middle;
     color: white;
 }
+.bar-animation{
+   animation-duration: 1s;
+   animation-name: bar-anime;
+}
+@keyframes bar-anime{
+  from{width: 0%}
+  to{width: 100%}
+}
 #bar-pc{
   width: 90%;
 }
