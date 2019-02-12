@@ -18,3 +18,8 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+.img-nav{
+  height: 20px;
+  width: 20px;
+  position: fixed;
+}
