@@ -23,3 +23,22 @@
   width: 20px;
   position: fixed;
 }
+* {
+  box-sizing: border-box;
+}
+.helags-img {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+.helags-img .helags-text {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 4px
+}
