@@ -1,0 +1,39 @@
+
+body, html {
+  height: 100%;
+}
+.parallax {
+  background-image: url(../pictures/helags.jpg);
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#name{
+  text-align: center;
+}
+#fast-info{
+  text-align: center;
+  opacity: 0.9;
+}
+.parallax2 {
+  background-image: url(../pictures/sunset.jpg);
+  height: 50%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.parallax3 {
+  background-image: url(../pictures/berg.jpg);
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#parallax2header{
+  margin: 0 auto;
+}

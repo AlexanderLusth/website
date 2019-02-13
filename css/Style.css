@@ -3,10 +3,12 @@ footer{
   background-color: white;
   outline: 1px solid red;
   height: 25px;
+  margin-bottom: 10px;
 }
 body{
   background-image: url(../pictures/blue-crystal.jpg);
   font-family: sans-serif;
+  margin: 0 auto;
 }
 .animation-index{
    animation-duration: 1s;
@@ -21,7 +23,7 @@ li {
   position: relative;
   margin: 0 auto;
   height: auto;
-  min-height: 100%;
+  //min-height: 100%;
   bottom: 0%;
 }
 #animation-settings{
@@ -178,4 +180,7 @@ to{top: 0px;}
   footer{
     height: 40px;
   }
+}
+#helags{
+margin: 0 auto;
 }

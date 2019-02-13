@@ -1,0 +1,26 @@
+.picture {
+  background-image: url(../pictures/sunset.jpg);
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  margin: 0 auto;
+}
+.picture2 {
+  background-image: url(../pictures/berg.jpg);
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.picture3 {
+  background-image: url(../pictures/water.jpg);
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
