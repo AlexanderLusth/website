@@ -40,3 +40,11 @@
   width: 100%;
   padding: 20px;
 }
+#jstext{
+  margin: auto;
+  text-align: center;
+  width: 1500px;
+  height: 20px;
+  background-color: white;
+  border: 1px solid red;
+}
