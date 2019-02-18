@@ -1,28 +1,29 @@
+//val av vilket datum den ska räkna ner till
+var countDownDate = new Date("Jun 7, 2019 00:00:00").getTime();
 
-var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
-
-// Update the count down every 1 second
+// Updatera varje sekund
 var x = setInterval(function() {
 
-  // Get todays date and time
+  // få dagens datum samnt tid
   var now = new Date().getTime();
 
-  // Find the distance between now and the count down date
+  // räkna ut tids skillnaden från idag och det bestämnda datumet
   var distance = countDownDate - now;
 
-  // Time calculations for days, hours, minutes and seconds
+  // tidsuträckning för dagar timmar minuter samnt sekunder
   var days = Math.floor(distance / (1000 * 60 * 60 * 24));
   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  // Output the result in an element with id="demo"
+  // output via ett element="countdown"
   document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
   + minutes + "m " + seconds + "s ";
 
-  // If the count down is over, write some text
+  // om tiden går ut så skriver den en text
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("countdown").innerHTML = "EXPIRED";
   }
 }, 1000);
+//mitt mest avanverade skript än så länge
