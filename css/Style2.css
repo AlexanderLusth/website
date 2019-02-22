@@ -99,6 +99,7 @@ border: 1px solid red;
 #right-column-info{
   float: left;
 margin-left: 20px;
+margin-top: 10px;
 width: 800px;
 }
 @media screen and (max-width: 600px) {
