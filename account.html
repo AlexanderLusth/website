@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="css/Style.css">
+    <link rel="stylesheet" href="css/Style2.css">
+    <link rel="stylesheet" href="css/Style3.css">
+    <link rel="stylesheet" href="css/Style4.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Account</title>
+  </head>
+  <body>
+    <nav class="form-inline" id="navmain" class="pagerow">
+      <ul id="navul" class="nav">
+        <li id="nav-start" class="right"><a href="index.html">Start</a></li>
+        <li id="nav-info" class="right"><a href="info.html">info</a></li>
+        <li id="nav-media" class="right"><a href="media.html">Medier</a></li>
+        <li id="nav-pictures" class="right"><a href="pictures.html">Pictures</a></li>
+        <li id="nav-bynker" class="right"><a href="fun.html">BYNKER</a></li>
+        <li id="nav-acc" class="right"><a class="active" href="account.html">Account</a></li>
+      </ul>
+    </nav>
+    <button id="login-btn" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+<div id="id01" class="modal">
+
+  <form method="post" class="modal-content animate" action="php/login.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <button type="submit">Login</button>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+
+
+
+<button id="signup-btn" onclick="document.getElementById('id02').style.display='block'" style="width:auto;">sign up</button>
+
+<div id="id02" class="modal">
+
+<form method="post" class="modal-content animate" action="php/signUp.php">
+<div class="imgcontainer">
+  <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+</div>
+
+<div class="container">
+  <label for="uname"><b>Username</b></label>
+  <input type="text" placeholder="Enter Username" name="uname" required>
+
+  <label for="psw"><b>Password</b></label>
+  <input type="password" placeholder="Enter Password" name="psw" required>
+
+  <label for="psw"><b>Re-enter password</b></label>
+  <input type="password" placeholder="Enter Password" name="re-psw" required>
+  <button type="submit">register</button>
+</div>
+
+<div class="container" style="background-color:#f1f1f1">
+  <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+</div>
+</form>
+</div>
+<script src="javaScripts/modal.js" ></script>
+  </body>
+</html>
