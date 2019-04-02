@@ -27,6 +27,7 @@ body{
 .image-middle{
   position: relative;
   width: 30%;
+  height: 35%;
   margin-top: 20px;
   left: 20%;
   transform: translate(-50%);
